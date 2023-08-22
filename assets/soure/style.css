@@ -1,0 +1,318 @@
+ ul {
+     list-style-type: none;
+
+
+ }
+
+ body {
+     margin: 0;
+     color: white;
+ }
+
+ .right {
+     color: rgb(255, 255, 255);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 25px;
+
+ }
+
+ .header {
+     padding: 10px;
+     background: linear-gradient(to bottom, #e038ff 0%, #4f2eb0 100%);
+     position: fixed;
+     width: 100%;
+     z-index: 1;
+ }
+
+ .footer-title {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 100;
+ }
+
+ .footer_text {
+     display: flex;
+     justify-content: center;
+     column-gap: 75px;
+     background-color: burlywood;
+
+ }
+
+ .ib {
+     font-style: italic;
+     font-weight: bold;
+     color: aliceblue;
+ }
+
+ .polite {
+     text-decoration: none;
+     color: black;
+ }
+
+ .img_one {
+     display: flex;
+     width: 100%;
+     border: 10px solid #4f2eb0;
+     box-sizing: border-box;
+
+ }
+
+ .text-carta {
+     font: 2em sans-serif;
+ }
+
+ .carta {
+     margin: 50px 0;
+ }
+
+ .nav {
+     display: flex;
+     justify-content: space-around;
+
+
+ }
+
+ .nav a {
+     text-decoration: none;
+
+ }
+
+ .right:hover {
+     cursor: pointer;
+     font-weight: lighter;
+     background-color: bisque;
+     border-radius: 10%;
+
+ }
+
+ .menu {
+     font-size: 40px;
+     background-color: black;
+     color: aliceblue;
+ }
+
+ .ret {
+     color: aliceblue;
+ }
+
+ .first_section {
+     display: flex;
+     justify-content: center;
+
+ }
+
+ .first_block {
+     width: 45%;
+     background-color: black;
+
+ }
+
+ .second_block {
+     width: 55%;
+     background-color: black;
+ }
+
+ .gerce {
+     background: linear-gradient(to bottom, #4f2eb0 100%, #e038ff 0%);
+     color: white;
+ }
+
+ .dost {
+     display: flex;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 100;
+     color: white;
+     font-size: 40px;
+     background: linear-gradient(to bottom, #e038ff 0%, #4f2eb0 100%);
+
+ }
+
+ .second_section {
+     display: flex;
+     justify-content: center;
+     background-color: black;
+     padding: 20px 0;
+
+ }
+
+ .one_block {
+     display: flex;
+     width: 45%;
+ }
+
+ .two_block {
+
+     width: 55%;
+     display: inline-block;
+ }
+
+ .vkgroup {
+     display: flex;
+     align-items: center;
+ }
+
+ style.dg {
+     margin-left: 10px;
+ }
+
+ .img_two {
+     width: 200px;
+     margin-left: 10px;
+
+ }
+
+ .Otz {
+     display: flex;
+     justify-content: center;
+     font-size: 40px;
+     background: linear-gradient(to bottom, #e038ff 0%, #4f2eb0 100%);
+     color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 100;
+ }
+
+ .reviews>div {
+     width: 200px;
+     border: 2px solid #e038ff;
+     color: white;
+ }
+
+ .reviews {
+     margin-top: 40px;
+     display: flex;
+     font-size: 17px;
+     justify-content: space-between;
+     padding: 20px 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 500;
+     color: white;
+ }
+
+ .img_three {
+     margin-left: 10px;
+     width: 50px;
+     height: 50px;
+ }
+
+ .footer {
+     background-color: rgb(85, 85, 85);
+     font: 2em sans-serif;
+ }
+
+ .dg {
+     color: aliceblue;
+ }
+
+ .ht {
+     display: flex;
+     margin: space-between;
+     column-gap: 25px;
+ }
+
+ .dsd {
+     display: inline;
+     width: 30%;
+ }
+
+ .ktk {
+     width: 60%;
+ }
+
+ .ktk img {
+     width: 100%;
+
+ }
+
+ .sas {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+
+ .kart {
+     width: 1000px;
+     height: 400px;
+ }
+
+ .ggr {
+     height: 100%;
+     width: 50%;
+     border-radius: 25%;
+ }
+
+ .photo-text {
+     font-size: 24px;
+ }
+
+ .photoandtext {
+     margin: 50px 0;
+ }
+
+ .mainscreen {
+     position: relative;
+ }
+
+ .textscreen {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate3d(-50%, -50%, 0);
+     color: rgb(255, 255, 255);
+     font-size: 14vw;
+ }
+
+ .block-text {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 100;
+ }
+
+ .dost {
+     text-align: center;
+     display: flex;
+     justify-content: center;
+ }
+
+ .text-footer p {
+     margin: 0;
+     line-height: 1;
+ }
+
+ .ruka {
+     height: 450px;
+     width: 100%;
+ }
+
+ .footer_text {
+     background: linear-gradient(to bottom, #4f2eb0 0%, #e038ff 100%);
+ }
+
+ @media (max-width:500px) {
+     .header {
+         display: none;
+     }
+
+     .photo-text {
+         font-size: 2vw;
+     }
+
+     .ruka {
+         height: 200px;
+     }
+
+     .block-text {
+         font-size: 4vw;
+     }
+
+     .footer-titre {
+         font-size: 2vw;
+     }
+
+     .footer_text {
+         column-gap: 30px;
+     }
+ }
+
+ @media (max-width:400px) {
+     .reviews>div {
+         width: 150px;
+     }
+ }

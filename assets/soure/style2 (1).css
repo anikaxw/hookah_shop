@@ -1,0 +1,121 @@
+.body {
+    margin: 0;
+    background-color: rgb(132, 128, 124);
+}
+
+.modal-content {
+    background-color: white;
+}
+
+.modal-header {
+    background-color: #e038ff;
+}
+
+.modal-body {
+    align-items: center;
+}
+
+.modal-slova {
+    color: beige;
+    background-color: black;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e038ff;
+    color: white;
+    align-items: center;
+}
+
+.resept {
+    font-size: 1vw;
+}
+
+.gas {
+    display: flex;
+    font: 2em sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nino {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.nino:hover {
+    cursor: pointer;
+    font-weight: lighter;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+.text_cook {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+
+}
+
+.first_block {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+
+}
+
+.second_block {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    text-align: center;
+}
+
+.hot_cook {
+    display: flex;
+    background: linear-gradient(to bottom, #e038ff 0%, #4f2eb0 100%);
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    padding: 10px;
+    color: white;
+}
+
+.first_section {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, #4f2eb0 0%, #e038ff 100%);
+}
+
+.card {
+    border-radius: 25px;
+    background-color: rgba(144, 0, 254, 0.551);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-body {
+    background-color: rgba(144, 0, 254, 0.551);
+}
+
+.btn-primary {
+    background-color: rgb(98, 110, 237);
+    border: none;
+}
+
+.card-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100;
+}
+
+.card-img-top {
+    height: 50%;
+    weight: 50%;
+    background-color: white;
+}
